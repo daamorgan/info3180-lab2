@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+    {% block main %}
+    <div id="profile">
+        <div id="top">
+            <img src="{{url_for('static', filename='pictures/profilepic.jpg')}}" alt="A picture of me">
+            <h1 id="profileName"> Danielle Morgan </h1>
+            <p id="info"> @daam <br> Kingston, Jamaica <br> {{ date }} </p>
+        </div>
+        <p class="light bio"> I am an enthusiastic dog lover who has experience in areas such as animal first aid, animal behavior, and animal care. My patient and energetic personality makes me a wonderful dog walking and sitter. If you want to hire me, please dm me.</p>
+        <div id="grid">
+            <p class="bold"> 1000</p>
+            <p class="bold"> 1,000</p>
+            <p class="bold"> 200,000</p>
+            <p class="light"> Posts</p>
+            <p class="light"> Following</p>
+            <p class="light"> Followers</p>
+        </div>
+        <br>
+        <button> Follow </button>
+    </div>
+    {% endblock %}

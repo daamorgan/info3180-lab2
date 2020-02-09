@@ -1,3 +1,76 @@
 body {
     padding-top: 5rem;
 }
+
+#top{
+    background-color:#ffcc66;
+    color: white;
+    width: 100%;
+    height: 330px;
+    margin: 10px,-200px,20px,-200px;  
+}
+
+
+#profile{	
+    text-align: center;
+    margin: 10px,-40px, 10px,-40px;
+}
+
+#info{
+    margin-top: 2px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+img{
+    border-radius: 50%;
+    height:180px;
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+
+#grid{
+    display:grid;
+    height: 50px;
+    width: 300px;
+    grid-template: 1fr 1fr/1fr 1fr 1fr;
+    row-gap:5px;
+    line-height:15px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+button{
+    margin-top: 7px;
+    margin-bottom:15px;
+    padding:7px 30px;
+    background-color:#007bff;
+    color: white;
+    border-radius: 12px;
+    font-size: 14px ;
+    font-weight: bolder;
+    border: none;
+
+}
+
+.bold{
+    font-weight: bold;  
+}
+
+.light{
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#profileName{
+    font-size: 33px;
+}
+
+.bio{
+    margin-top:20px;
+    padding-bottom: 17px;
+}
